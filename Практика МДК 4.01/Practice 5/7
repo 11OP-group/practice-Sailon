@@ -1,0 +1,9 @@
+SEATS_PER_KUPE = 4
+
+# вводим номер места
+place_number = int(input("Введите номер вашего места: "))
+
+kupe_number = (place_number - 1) // SEATS_PER_KUPE + 1 # считаем
+
+# вывод
+print(f"Место {place_number} находится в купе №{kupe_number}")
