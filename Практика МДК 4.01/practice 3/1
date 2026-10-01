@@ -1,1 +1,17 @@
+my_list = [1, 2, 3]
+print (my_list)
+my_list[0] = 100
+print (my_list)
+
+my_turple = (1, 2, 3,)
+print (my_turple)
+my_list[0] = 100
+print (my_turple) 
+# картедж не изменился потому что turple нелья изменить после создания
+
+my_string = "cat"
+print (my_string)
+my_string[0] = '100'
+print (my_string) 
+# происходит ошибка из за того что my_string = "cat" отсутсвуют круглые или квадратные скобки, что делает my_string = "cat" не списком, а переменной
 
