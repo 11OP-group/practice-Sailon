@@ -1,0 +1,4 @@
+num1 = int(input('Ввидите число:'))
+num2 = int(input('Ввидите число:'))
+summ = num1 + num2
+print (summ)
