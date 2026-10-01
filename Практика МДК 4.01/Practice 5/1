@@ -1,0 +1,16 @@
+TAX_RATE = 0.13  # ставка 13%
+
+# вводим доход
+text = input("Введите ваш годовой доход: ")
+
+# превращаем в число
+income = float(text)
+
+# считаем налог и доход после вычета налога
+tax = income * TAX_RATE
+income_after_tax = income - tax
+
+# вывод
+print(f"Общая сумма дохода: {income:,.2f} руб.".replace(",", " "))
+print(f"Сумма налога: {tax:,.2f} руб.".replace(",", " "))
+print(f"Сумма на руки: {income_after_tax:,.2f} руб.".replace(",", " "))
