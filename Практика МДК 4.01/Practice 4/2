@@ -1,0 +1,11 @@
+a = 42
+b = 3.14159
+c = "Hello, Python!"
+d = True
+e = [1, 2, 3]
+f = (4, 5, 6)
+g = {"name": "Alice", "age": 30}
+h = {7, 8, 9}
+i = None
+
+print(type(a),type(b),type(c),type(d),type(e),type(f),type(g),type(h),type(i))
