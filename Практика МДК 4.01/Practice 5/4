@@ -7,5 +7,5 @@ every = b // a
 left = b % a
 
 # вывод
-print(every) # сколько досталось каждому
+print(every) # сколько получил каждый
 print(left) # сколько осталось
