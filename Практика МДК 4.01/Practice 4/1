@@ -1,4 +1,4 @@
-import math # библиотечность
+import math 
 
 # ввод
 x = float(input())
